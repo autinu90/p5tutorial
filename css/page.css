@@ -1,0 +1,51 @@
+* {
+    text-align: center;
+    margin: 0%;
+    height: 100%;
+}
+
+body {
+    background-image: url("..//img/521.jpg");
+    border-radius: 10px;
+}
+
+header {
+    background-color: red;
+    font-size: 60px;
+}
+
+nav {
+    background-color: red;
+    font-size: 24px;
+}
+
+nav>div {
+    background-color: red;
+    font-size: 24px;
+}
+
+main {
+    background-color: blueviolet;
+    font-size: 24px;
+}
+
+img {
+    image-rendering: optimizeSpeed;
+}
+
+menu {
+    background-color: palegreen;
+    font-size: 12px;
+}
+
+menu>ul {
+    position: relative;
+}
+
+footer {
+    background-color: palegreen;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 3.5px;
+}

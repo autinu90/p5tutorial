@@ -1,0 +1,53 @@
+body {
+    
+    display: grid;
+    grid-template: 50px 40px auto 40px / repeat(autofit(40px), 1fr);
+    grid-template-areas: "h h h h h h h h h h m m" "d d d d d d d d d d m m" "c c c c c c c c c c m m" "f f f f f f f f f f f f";
+}
+
+header {
+    display: grid;
+    grid-area: h;
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-area: d;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav>button:nth-child(1) {
+    margin-left: 10px;
+    background-color: aqua;
+    border-radius: 15%;
+}
+
+nav>button:nth-child(2) {
+    margin-left: 10px;
+    background-color: aqua;
+    border-radius: 15%;
+}
+
+nav>button:nth-child(3) {
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: aqua;
+    border-radius: 15%;
+}
+
+menu {
+    grid-area: m;
+    text-decoration: none;
+}
+
+main {
+    grid-area: c;
+}
+
+footer {
+    grid-area: f;
+    align-self: center;
+    text-align: right;
+}
