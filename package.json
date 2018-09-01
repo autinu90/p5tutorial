@@ -1,0 +1,22 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "p5tut",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autinu90/p5tutorial.git"
+  },
+  "author": "austinUnderwood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autinu90/p5tutorial/issues"
+  },
+  "homepage": "https://github.com/autinu90/p5tutorial#readme",
+  "dependencies": {
+    "sass": "^1.13.1"
+  }
+}
